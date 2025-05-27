@@ -533,3 +533,39 @@ color: #777;
 #footer a:hover {
 	color: #ccc;
 }
+
+/* Reusable social icon styles */
+.social ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.social ul li a {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  background: #222; /* or match your footer color */
+  color: #fff;
+  border-radius: 50%;
+  font-size: 22px;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.social ul li a:hover {
+  background: #5bc236;  /* Use your highlight/brand color */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* If you want to specifically target the contact section only: */
+.contact-social ul li a {
+  background: #222; /* Override if needed */
+}
